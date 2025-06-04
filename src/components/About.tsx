@@ -61,7 +61,7 @@ const About = () => {
         <div className="grid md:grid-cols-3 gap-8">
           {skills.map((skill, index) => (
             <div key={index} className="card-glow rounded-2xl p-8 text-center hover:scale-105 transition-transform duration-300">
-              <div className="w-16 h-16 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full flex items-center justify-center mx-auto mb-4 pulse-glow">
+              <div className="w-16 h-16 bg-gradient-to-r from-orange-500 to-lime-500 rounded-full flex items-center justify-center mx-auto mb-4 pulse-glow">
                 <skill.icon className="h-8 w-8 text-white" />
               </div>
               <h3 className="text-xl font-semibold mb-2 text-white">{skill.title}</h3>

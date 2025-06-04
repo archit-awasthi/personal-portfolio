@@ -28,7 +28,7 @@ const Contact = () => {
             
             <div className="space-y-6">
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-lime-500 rounded-full flex items-center justify-center">
                   <Mail className="h-6 w-6 text-white" />
                 </div>
                 <div>
@@ -38,7 +38,7 @@ const Contact = () => {
               </div>
               
               <div className="flex items-center gap-4">
-                <div className="w-12 h-12 bg-gradient-to-r from-indigo-500 to-purple-600 rounded-full flex items-center justify-center">
+                <div className="w-12 h-12 bg-gradient-to-r from-orange-500 to-lime-500 rounded-full flex items-center justify-center">
                   <MessageSquare className="h-6 w-6 text-white" />
                 </div>
                 <div>
@@ -79,7 +79,7 @@ const Contact = () => {
                 className="bg-white/5 border-gray-600 text-white placeholder:text-gray-400 resize-none"
               />
               
-              <Button className="w-full bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 text-white py-3 glow-effect">
+              <Button className="w-full bg-gradient-to-r from-orange-500 to-lime-500 hover:from-orange-600 hover:to-lime-600 text-white py-3 glow-effect">
                 <Send className="h-4 w-4 mr-2" />
                 Send Message
               </Button>

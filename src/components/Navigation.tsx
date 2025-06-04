@@ -40,7 +40,7 @@ const Navigation = () => {
               className="text-gray-300 hover:text-white transition-colors relative group"
             >
               {item.name}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-indigo-500 to-purple-600 group-hover:w-full transition-all duration-300"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-orange-500 to-lime-500 group-hover:w-full transition-all duration-300"></span>
             </a>
           ))}
         </div>

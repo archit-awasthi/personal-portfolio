@@ -61,7 +61,7 @@ const Projects = () => {
                 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech, techIndex) => (
-                    <span key={techIndex} className="px-3 py-1 bg-indigo-500/20 text-indigo-300 rounded-full text-xs">
+                    <span key={techIndex} className="px-3 py-1 bg-orange-500/20 text-orange-300 rounded-full text-xs">
                       {tech}
                     </span>
                   ))}
@@ -72,7 +72,7 @@ const Projects = () => {
                     <Github className="h-4 w-4 mr-2" />
                     Code
                   </Button>
-                  <Button size="sm" className="bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-600 hover:to-purple-700 flex-1">
+                  <Button size="sm" className="bg-gradient-to-r from-orange-500 to-lime-500 hover:from-orange-600 hover:to-lime-600 flex-1">
                     <ExternalLink className="h-4 w-4 mr-2" />
                     Live
                   </Button>
