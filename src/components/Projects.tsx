@@ -37,8 +37,8 @@ const Projects = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
             Featured Projects
           </h2>
-          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            A showcase of my recent work, from web applications to mobile solutions. 
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto font-medium">
+            A showcase of my recent work, from <span className="text-orange-400 font-semibold">web applications</span> to <span className="text-lime-400 font-semibold">mobile solutions</span>. 
             Each project represents a unique challenge and creative solution.
           </p>
         </div>
@@ -56,12 +56,12 @@ const Projects = () => {
               </div>
               
               <div className="p-6">
-                <h3 className="text-xl font-semibold mb-3 text-white">{project.title}</h3>
-                <p className="text-gray-400 mb-4 text-sm leading-relaxed">{project.description}</p>
+                <h3 className="text-xl font-semibold mb-3 bg-gradient-to-r from-orange-300 to-lime-300 bg-clip-text text-transparent">{project.title}</h3>
+                <p className="text-gray-300 mb-4 text-sm leading-relaxed font-medium">{project.description}</p>
                 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tech.map((tech, techIndex) => (
-                    <span key={techIndex} className="px-3 py-1 bg-orange-500/20 text-orange-300 rounded-full text-xs">
+                    <span key={techIndex} className="px-3 py-1 bg-orange-500/20 text-orange-300 rounded-full text-xs font-medium">
                       {tech}
                     </span>
                   ))}

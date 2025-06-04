@@ -1,3 +1,4 @@
+
 import { Mail, MessageSquare, Send } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -11,17 +12,17 @@ const Contact = () => {
           <h2 className="text-4xl md:text-5xl font-bold mb-6 gradient-text">
             Let's Work Together
           </h2>
-          <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-            Have a project in mind? I'd love to hear about it. 
-            Let's create something amazing together.
+          <p className="text-xl text-gray-300 max-w-2xl mx-auto font-medium">
+            Have a <span className="text-orange-400 font-semibold">project in mind</span>? I'd love to hear about it. 
+            Let's create something <span className="text-lime-400 font-semibold">amazing together</span>.
           </p>
         </div>
         
         <div className="grid md:grid-cols-2 gap-12">
           <div>
-            <h3 className="text-2xl font-semibold mb-6 text-white">Get in Touch</h3>
-            <p className="text-gray-400 mb-8 leading-relaxed">
-              I'm always open to discussing new opportunities, creative projects, 
+            <h3 className="text-2xl font-semibold mb-6 bg-gradient-to-r from-orange-400 to-lime-400 bg-clip-text text-transparent">Get in Touch</h3>
+            <p className="text-gray-300 mb-8 leading-relaxed font-medium">
+              I'm always open to discussing <span className="text-orange-300">new opportunities</span>, creative projects, 
               or potential collaborations. Drop me a line and let's start a conversation.
             </p>
             
@@ -31,8 +32,8 @@ const Contact = () => {
                   <Mail className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="text-white font-medium">Email</h4>
-                  <p className="text-gray-400">hello@yourname.dev</p>
+                  <h4 className="text-orange-300 font-semibold">Email</h4>
+                  <p className="text-gray-300 font-medium">hello@yourname.dev</p>
                 </div>
               </div>
               
@@ -41,8 +42,8 @@ const Contact = () => {
                   <MessageSquare className="h-6 w-6 text-white" />
                 </div>
                 <div>
-                  <h4 className="text-white font-medium">Response Time</h4>
-                  <p className="text-gray-400">Usually within 24 hours</p>
+                  <h4 className="text-lime-300 font-semibold">Response Time</h4>
+                  <p className="text-gray-300 font-medium">Usually within 24 hours</p>
                 </div>
               </div>
             </div>
