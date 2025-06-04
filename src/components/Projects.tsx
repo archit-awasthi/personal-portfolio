@@ -72,7 +72,7 @@ const Projects = () => {
                     <Github className="h-4 w-4 mr-2" />
                     Code
                   </Button>
-                  <Button size="sm" className="bg-gradient-to-r from-orange-500 to-lime-500 hover:from-orange-600 hover:to-lime-600 flex-1">
+                  <Button size="sm" className="bg-orange-500 hover:bg-orange-600 text-white flex-1">
                     <ExternalLink className="h-4 w-4 mr-2" />
                     Live
                   </Button>
