@@ -1,4 +1,3 @@
-
 import { ArrowRight, Github, Linkedin, Mail } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -16,13 +15,13 @@ const Hero = () => {
           </h1>
         </div>
         
-        <h2 className="text-2xl md:text-4xl font-light mb-8 bg-gradient-to-r from-gray-200 to-gray-400 bg-clip-text text-transparent">
+        <h2 className="text-2xl md:text-4xl font-light mb-8 text-gray-300">
           Full Stack Developer & Designer
         </h2>
         
-        <p className="text-lg md:text-xl text-gray-300 max-w-2xl mx-auto mb-12 leading-relaxed font-medium">
+        <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed">
           Crafting beautiful, functional digital experiences with modern technologies. 
-          <span className="text-orange-400"> Passionate</span> about clean code, innovative solutions, and bringing ideas to life.
+          Passionate about clean code, innovative solutions, and bringing ideas to life.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
