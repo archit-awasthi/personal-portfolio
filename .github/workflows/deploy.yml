@@ -2,7 +2,11 @@ name: Deploy Vite React App to GitHub Pages
 
 on:
   push:
-    branches: [main]   # Run this when you push to main
+    branches:
+      - main
+
+permissions:
+  contents: write  # 👈 important for pushing to gh-pages
 
 jobs:
   build-deploy:
@@ -24,7 +28,7 @@ jobs:
         run: npm run build
 
       - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
+          branch: gh-pages   # deployment branch
+          folder: dist       # output folder from Vite
